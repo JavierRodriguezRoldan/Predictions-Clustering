@@ -1,0 +1,12 @@
+id - identifier of the time slot (not related to the time order)
+year - year (2011 or 2012)
+hour - time of day (0 to 23)
+season - 1 = winter, 2 =spring, 3 = summer, 4 = autumn
+holiday - if the day was a holiday
+workingday - if the day was a working day (neither a holiday nor a weekend)
+weather - four categories (1 to 4) ranging from best to worst weather
+temp - temperature in degrees Celsius
+atemp - temperature sensation in degrees Celsius
+humidity - relative humidity
+windspeed - wind speed (km/h)
+count - (only in the training set): total number of rentals in that band
